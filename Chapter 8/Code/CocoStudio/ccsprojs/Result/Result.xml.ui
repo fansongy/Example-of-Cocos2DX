@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Code\Tower\CocoStudio\ccsprojs\Result</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>C:\Code\Tower\CocoStudio\assets</Resources>
+  <Name>Result</Name>
+  <JsonFileName>Result.json</JsonFileName>
+  <JsonFolder>C:\Code\Tower\CocoStudio\ccsprojs\Result\Json</JsonFolder>
+  <JsonList>
+    <string>Result.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>960</Width>
+    <Height>640</Height>
+  </CanvasSize>
+  <filePath>C:\Code\Tower\CocoStudio\ccsprojs\Result\Result.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath>\\..\\..\\assets</ResRelativePath>
+  <imageFileList>
+    <string>Result0.plist</string>
+  </imageFileList>
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>Result.json</CurrentUIJson>
+</UIProject>

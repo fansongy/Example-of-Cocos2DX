@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Code\Tower\CocoStudio\ccsprojs\WelcomeUI</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>C:\Code\Tower\CocoStudio\assets</Resources>
+  <Name>WelcomeUI</Name>
+  <JsonFileName>WelcomeUI.json</JsonFileName>
+  <JsonFolder>C:\Code\Tower\CocoStudio\ccsprojs\WelcomeUI\Json</JsonFolder>
+  <JsonList>
+    <string>WelcomeUI.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>960</Width>
+    <Height>640</Height>
+  </CanvasSize>
+  <filePath>C:\Code\Tower\CocoStudio\ccsprojs\WelcomeUI\WelcomeUI.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath>\\..\\..\\assets</ResRelativePath>
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>WelcomeUI.json</CurrentUIJson>
+</UIProject>

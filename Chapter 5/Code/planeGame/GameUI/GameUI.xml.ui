@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Code\CocoStudio\planeGame\GameUI</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>C:\Code\CocoStudio\planeGame\GameUI\Resources</Resources>
+  <Name>GameUI</Name>
+  <JsonFileName>GameUI.json</JsonFileName>
+  <JsonFolder>C:\Code\CocoStudio\planeGame\GameUI\Json</JsonFolder>
+  <JsonList>
+    <string>GameOverDlg.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>640</Width>
+    <Height>900</Height>
+  </CanvasSize>
+  <filePath>C:\Code\CocoStudio\planeGame\GameUI\GameUI.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>GameOverDlg.json</CurrentUIJson>
+</UIProject>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Code\CocoStudio\planeGame\NewGUI</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>C:\Code\CocoStudio\planeGame\NewGUI\Resources</Resources>
+  <Name>NewGUI</Name>
+  <JsonFileName>NewGUI.json</JsonFileName>
+  <JsonFolder>C:\Code\CocoStudio\planeGame\NewGUI\Json</JsonFolder>
+  <JsonList>
+    <string>HUD.json</string>
+    <string>Welcome.json</string>
+    <string>Result.json</string>
+    <string>HighScore.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>640</Width>
+    <Height>900</Height>
+  </CanvasSize>
+  <filePath>C:\Code\CocoStudio\planeGame\NewGUI\NewGUI.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath />
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>HighScore.json</CurrentUIJson>
+</UIProject>

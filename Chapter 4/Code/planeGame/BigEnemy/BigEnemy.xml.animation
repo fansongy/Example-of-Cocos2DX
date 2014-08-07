@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<AnimationProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Code\CocoStudio\planeGame\BigEnemy</ProjectDir>
+  <Version>1.2.0.1</Version>
+  <Resources>C:\Code\CocoStudio\planeGame\BigEnemy\Resources</Resources>
+  <Name>BigEnemy</Name>
+  <JsonFileName>BigEnemy.json</JsonFileName>
+  <JsonFolder>C:\Code\CocoStudio\planeGame\BigEnemy\Json</JsonFolder>
+  <JsonList />
+  <CanvasSize>
+    <Width>0</Width>
+    <Height>0</Height>
+  </CanvasSize>
+  <filePath>C:\Code\CocoStudio\planeGame\BigEnemy\BigEnemy.xml.animation</filePath>
+  <ProjectType>AnimationProject</ProjectType>
+  <ResRelativePath />
+  <ResourceFileList>
+    <string>BigEnemy0.plist</string>
+  </ResourceFileList>
+  <bBatchImage>true</bBatchImage>
+</AnimationProject>

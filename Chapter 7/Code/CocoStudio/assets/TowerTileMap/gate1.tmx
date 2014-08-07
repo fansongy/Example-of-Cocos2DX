@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="12" height="8" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="towerBlocks" tilewidth="80" tileheight="80" spacing="1">
+  <image source="TileResource/towerBlocks.png" width="512" height="512"/>
+  <tile id="26">
+   <properties>
+    <property name="Build" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="main" width="12" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAOBIFYCIccCxYxcSCWQOJz4VHPCMTMUMyERz0vEPPhkMNnPkyOFYg5SFDPgkUMBLiR3AvCPFjEeRhIA/xALADEAPl4AUw=
+  </data>
+ </layer>
+ <objectgroup name="Walk" width="12" height="8">
+  <object x="112" y="104"/>
+  <object x="117" y="505"/>
+  <object x="428" y="521"/>
+  <object x="435" y="200"/>
+  <object x="679" y="191"/>
+  <object x="679" y="355"/>
+  <object x="599" y="355"/>
+  <object x="599" y="515"/>
+  <object x="832" y="516"/>
+  <object x="837" y="112"/>
+ </objectgroup>
+ <layer name="meta" width="12" height="8">
+  <data encoding="base64" compression="zlib">
+   eJyTZmBgkMaCYQCXHCH1uNjIapH1YFOPrgZdjpB6QuYTYyY292KzD91MQhgGALTsBek=
+  </data>
+ </layer>
+</map>

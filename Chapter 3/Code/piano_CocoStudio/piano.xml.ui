@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <filePath>C:\Code\CocoStudio\piano\piano.xml.ui</filePath>
+  <Version>1.2.0.0</Version>
+  <Name>piano</Name>
+  <ProjectDir>C:\Code\CocoStudio\piano</ProjectDir>
+  <JsonFileName>piano.json</JsonFileName>
+  <Resources>C:\Code\CocoStudio\piano\Resources</Resources>
+  <JsonFolder>C:\Code\CocoStudio\piano\Json</JsonFolder>
+  <JsonList>
+    <string>piano.json</string>
+  </JsonList>
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>piano.json</CurrentUIJson>
+  <CanvasSize>
+    <Width>1024</Width>
+    <Height>768</Height>
+  </CanvasSize>
+</UIProject>

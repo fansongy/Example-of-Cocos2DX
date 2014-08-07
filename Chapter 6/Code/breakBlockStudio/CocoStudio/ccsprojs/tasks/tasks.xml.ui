@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<UIProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectDir>C:\Code\breakBlockStudio\CocoStudio\ccsprojs\tasks</ProjectDir>
+  <Version>1.3.0.1</Version>
+  <Resources>C:\Code\breakBlockStudio\CocoStudio\assets</Resources>
+  <Name>tasks</Name>
+  <JsonFileName>tasks.json</JsonFileName>
+  <JsonFolder>C:\Code\breakBlockStudio\CocoStudio\ccsprojs\tasks\Json</JsonFolder>
+  <JsonList>
+    <string>task1.json</string>
+    <string>task2.json</string>
+    <string>task3.json</string>
+    <string>welcome.json</string>
+  </JsonList>
+  <CanvasSize>
+    <Width>640</Width>
+    <Height>960</Height>
+  </CanvasSize>
+  <filePath>C:\Code\breakBlockStudio\CocoStudio\ccsprojs\tasks\tasks.xml.ui</filePath>
+  <ProjectType>UIProject</ProjectType>
+  <ResRelativePath>\\..\\..\\assets</ResRelativePath>
+  <imageFileList />
+  <JsonSuffix>.json</JsonSuffix>
+  <CurrentUIJson>welcome.json</CurrentUIJson>
+</UIProject>

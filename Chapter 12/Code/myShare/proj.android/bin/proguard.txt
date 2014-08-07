@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:14
+-keep class com.fansy.shareSDK.MainActivity { <init>(...); }
+

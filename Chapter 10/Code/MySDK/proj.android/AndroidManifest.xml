@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.fansy.mySDK"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+    <uses-sdk 
+         android:minSdkVersion="9"
+         android:targetSdkVersion="9" />
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/icon">
+
+ 		<meta-data
+           	android:name="gfan_pay_appkey"
+		    android:value="325077622"/>  
+        <meta-data
+        	android:name="gfan_cpid"
+        	android:value="GFan" />
+        
+        <activity android:name="com.fansy.mySDK.MainActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="landscape"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:configChanges="orientation">
+
+            <!-- Tell NativeActivity the name of our .so -->
+            <meta-data android:name="android.app.lib_name"
+                       android:value="cocos2dcpp" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+ <!-- start for gfan sdk -->
+        <activity
+            android:name="com.mappn.sdk.uc.activity.LoginActivity"
+        	android:theme="@style/Transparent" 
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.mappn.sdk.uc.activity.RegisterActivity"
+        	android:theme="@style/Transparent" 
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.mappn.sdk.uc.activity.OnekeyLoignActivity"
+        	android:theme="@style/Transparent" 
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.mappn.sdk.uc.activity.ModfiyActivity"
+        	android:theme="@style/Transparent" 
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.mappn.sdk.uc.activity.ChooseAccountActivity"
+        	android:theme="@style/Transparent" 
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.mappn.sdk.pay.payment.PaymentsActivity"
+        	android:theme="@style/Transparent" 
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.mappn.sdk.pay.chargement.ChargeActivity"
+        	android:theme="@style/Transparent" 
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="com.mappn.sdk.pay.account.LoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:windowSoftInputMode="adjustUnspecified"
+        	android:theme="@style/Transparent"  />
+        
+        <!-- mo9 -->
+       <activity android:name="com.mokredit.payment.MktPayment"
+			android:configChanges="keyboardHidden|orientation"
+			android:windowSoftInputMode="adjustResize"/>
+        <service android:name="com.mappn.sdk.pay.GfanPayService" />
+<!-- start for net bank -->
+
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.unionpay.upomp.lthj.android.plugin.init.test" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.IndexActivityGroup"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.unionpay.upomp.lthj.android.plugin.index.test" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.PayActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.AccountActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.BankCardInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.SupportCardActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.UserProtocolActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.unionpay.upomp.lthj.plugin.ui.AboutActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- end for net bank -->
+    </application>
+    <supports-screens android:anyDensity="true"
+                      android:smallScreens="true"
+                      android:normalScreens="true"
+                      android:largeScreens="true"
+                      android:xlargeScreens="true"/>
+
+    <!-- start for gfan sdk -->
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /> 
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> 
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> 
+	<!-- end for gfan sdk -->  
+</manifest> 

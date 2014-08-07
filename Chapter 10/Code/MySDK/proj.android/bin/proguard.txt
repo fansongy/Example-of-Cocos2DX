@@ -1,0 +1,126 @@
+# view AndroidManifest.xml #generated:22
+-keep class com.fansy.mySDK.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.mappn.sdk.pay.GfanPayService { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.mappn.sdk.pay.account.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.mappn.sdk.pay.chargement.ChargeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.mappn.sdk.pay.payment.PaymentsActivity { <init>(...); }
+
+# view res/layout/gfan_charge_list_item.xml #generated:7
+-keep class com.mappn.sdk.pay.weight.CustomTextView { <init>(...); }
+
+# view res/layout/gfan_charge_phonecard.xml #generated:12
+# view res/layout/gfan_charge_phonecard.xml #generated:20
+-keep class com.mappn.sdk.pay.weight.TitleSpinner { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.mappn.sdk.uc.activity.ChooseAccountActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.mappn.sdk.uc.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.mappn.sdk.uc.activity.ModfiyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.mappn.sdk.uc.activity.OnekeyLoignActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.mappn.sdk.uc.activity.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.mokredit.payment.MktPayment { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.unionpay.upomp.lthj.plugin.ui.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.unionpay.upomp.lthj.plugin.ui.AccountActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.unionpay.upomp.lthj.plugin.ui.BankCardInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.unionpay.upomp.lthj.plugin.ui.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.unionpay.upomp.lthj.plugin.ui.IndexActivityGroup { <init>(...); }
+
+# view AndroidManifest.xml #generated:102
+-keep class com.unionpay.upomp.lthj.plugin.ui.PayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.unionpay.upomp.lthj.plugin.ui.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.unionpay.upomp.lthj.plugin.ui.SupportCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.unionpay.upomp.lthj.plugin.ui.UserProtocolActivity { <init>(...); }
+
+# view res/layout/upomp_lthj_changepassword.xml #generated:10
+# view res/layout/upomp_lthj_changepassword.xml #generated:12
+# view res/layout/upomp_lthj_changepassword.xml #generated:7
+# view res/layout/upomp_lthj_quick_reg_confirm.xml #generated:14
+# view res/layout/upomp_lthj_quick_reg_confirm.xml #generated:19
+# view res/layout/upomp_lthj_quick_reg_confirm.xml #generated:23
+# view res/layout/upomp_lthj_quick_register.xml #generated:14
+# view res/layout/upomp_lthj_quick_register.xml #generated:17
+# view res/layout/upomp_lthj_quick_register.xml #generated:19
+-keep class com.unionpay.upomp.lthj.widget.CustomInputView { <init>(...); }
+
+# view res/layout/upomp_lthj_bankcard_item.xml #generated:6
+# view res/layout/upomp_lthj_bankcard_list.xml #generated:9
+# view res/layout/upomp_lthj_bindcard_home.xml #generated:8
+# view res/layout/upomp_lthj_bindcard_next.xml #generated:14
+# view res/layout/upomp_lthj_bindcard_next.xml #generated:8
+# view res/layout/upomp_lthj_changemobile.xml #generated:8
+# view res/layout/upomp_lthj_changepassword.xml #generated:16
+# view res/layout/upomp_lthj_commonpay.xml #generated:14
+# view res/layout/upomp_lthj_commonpay.xml #generated:20
+# view res/layout/upomp_lthj_commonpay.xml #generated:8
+# view res/layout/upomp_lthj_findpwd_next.xml #generated:15
+# view res/layout/upomp_lthj_findpwd_next.xml #generated:23
+# view res/layout/upomp_lthj_findpwd_next.xml #generated:8
+# view res/layout/upomp_lthj_myinfo.xml #generated:15
+# view res/layout/upomp_lthj_myinfo.xml #generated:22
+# view res/layout/upomp_lthj_myinfo.xml #generated:29
+# view res/layout/upomp_lthj_myinfo.xml #generated:8
+# view res/layout/upomp_lthj_quick_bind_result.xml #generated:14
+# view res/layout/upomp_lthj_quick_bind_result.xml #generated:20
+# view res/layout/upomp_lthj_quick_bind_result.xml #generated:25
+# view res/layout/upomp_lthj_quick_bind_result.xml #generated:9
+# view res/layout/upomp_lthj_quick_bindcard.xml #generated:16
+# view res/layout/upomp_lthj_quick_bindcard.xml #generated:22
+# view res/layout/upomp_lthj_quick_bindcard.xml #generated:8
+# view res/layout/upomp_lthj_quick_reg_confirm.xml #generated:6
+# view res/layout/upomp_lthj_quick_reg_result.xml #generated:14
+# view res/layout/upomp_lthj_quick_reg_result.xml #generated:9
+# view res/layout/upomp_lthj_quick_register.xml #generated:8
+# view res/layout/upomp_lthj_quickpay_hascard.xml #generated:12
+# view res/layout/upomp_lthj_quickpay_hascard.xml #generated:20
+# view res/layout/upomp_lthj_quickpay_nocard.xml #generated:9
+# view res/layout/upomp_lthj_quickpay_userinfo.xml #generated:12
+# view res/layout/upomp_lthj_quickpay_userinfo.xml #generated:4
+# view res/layout/upomp_lthj_savecardpay.xml #generated:8
+# view res/layout/upomp_lthj_traderesult.xml #generated:10
+# view res/layout/upomp_lthj_traderesult.xml #generated:15
+-keep class com.unionpay.upomp.lthj.widget.LineFrameView { <init>(...); }
+
+# view res/layout/upomp_lthj_bindcard_home.xml #generated:24
+# view res/layout/upomp_lthj_bindcard_next.xml #generated:39
+# view res/layout/upomp_lthj_commonpay.xml #generated:42
+# view res/layout/upomp_lthj_findpwd_home.xml #generated:17
+# view res/layout/upomp_lthj_findpwd_next.xml #generated:40
+# view res/layout/upomp_lthj_homeaccount.xml #generated:23
+# view res/layout/upomp_lthj_homecardpay.xml #generated:23
+# view res/layout/upomp_lthj_savecardpay.xml #generated:17
+-keep class com.unionpay.upomp.lthj.widget.ValidateCodeView { <init>(...); }
+
