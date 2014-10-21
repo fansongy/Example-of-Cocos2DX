@@ -30,7 +30,7 @@ Scene* HelloWorld::createScene()
 }
 
 
-//¸ü¸Äinit
+//æ›´æ”¹init
 bool HelloWorld::init()
 {
     //////////////////////////////
@@ -46,7 +46,7 @@ bool HelloWorld::init()
 	ArmatureDataManager::getInstance()->addArmatureFileInfo("Hero/Hero.ExportJson"); 
 	ArmatureDataManager::getInstance()->addArmatureFileInfo("BigEnemy/BigEnemy.ExportJson");
     ArmatureDataManager::getInstance()->addArmatureFileInfo("SmallEnemy/SmallEnemy.ExportJson");
-	ArmatureDataManager::getInstance()->addArmatureFileInfo("Explode/Explode.ExportJson");
+	//ArmatureDataManager::getInstance()->addArmatureFileInfo("Explode/Explode.ExportJson");
     
 	if(!startGame())
     {
@@ -201,13 +201,13 @@ void HelloWorld::initBackground()
     m_background1->setAnchorPoint(Point(0,0));
     m_background1->setPosition(Point(0,0));
     
-    //Ëõ·ÅX£¬ÈÃ±³¾°ÔÚX·½ÏòÉÏÆÌÂúÆÁÄ»
+    //ç¼©æ”¾Xï¼Œè®©èƒŒæ™¯åœ¨Xæ–¹å‘ä¸Šé“ºæ»¡å±å¹•
     Size bkSize = m_background1->getContentSize();
     auto xScale = Director::getInstance()->getVisibleSize().width / bkSize.width;
     m_background1->setScaleX(xScale);
     addChild(m_background1,-1);
     
-    //ÁíÒ»ÕÅ±³¾°Í¼Æ¬
+    //å¦ä¸€å¼ èƒŒæ™¯å›¾ç‰‡
     m_background2 = Sprite::create("background.png");
     m_background2->setAnchorPoint(Point(0,0));
     m_background2->setPosition(Point(0,bkSize.height));
